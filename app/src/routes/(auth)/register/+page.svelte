@@ -13,11 +13,11 @@
 <form action="" class="flex flex-col gap-5 mt-10 @3xl:text-2xl">
     <div class="flex flex-col gap-2">
         <label for="" class="font-krona font-bold text-md">Email</label>
-        <input type="text" placeholder="Email" class="w-80 h-10 bg-skyBlue focus:outline-blue @4xl:w-130 @4xl:h-15">
+        <input type="email" placeholder="Email" class="w-80 h-10 bg-white shadow-md outline-1 outline-blue focus:outline-blue @4xl:w-110 @4xl:h-15">
     </div>
     <div class="flex flex-col gap-2">
         <label for="" class="font-krona font-bold text-md">Password</label>
-        <input type="text" placeholder="Email" class="w-80 h-10 bg-skyBlue focus:outline-blue @4xl:w-130 @4xl:h-15">
+        <input type="text" placeholder="Password" class="w-80 h-10 shadow-md outline-1 outline-blue focus:outline-blue @4xl:w-110 @4xl:h-15">
     </div>
     <div class="flex justify-between text-blue">
         <div class="flex gap-2"><input type="checkbox"><Small text = "Remember Me?" /></div>

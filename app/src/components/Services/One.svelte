@@ -14,8 +14,10 @@
 </script>
 <section class="@container mt-30 ">
     <div class="grid place-items-center gap-30 @4xl:grid-cols-2 @5xl:px-4 @6xl:px-30 @7xl:px-40" >
-        <div class="bg-purple size-72 rounded-2xl shadow-sm shadow-gray-600 @xl:size-100 @3xl:size-130"></div>
-        <div class="w-80 flex flex-col gap-2 @4xl:w-130">
+        <div class="bg-purple size-72 flex justify-center items-center rounded-2xl shadow-sm shadow-gray-600 @xl:size-100 @3xl:size-130">
+            <img src="/services/finance.png" alt="">
+        </div>
+        <div class="w-80 flex flex-col @2xl:w-100 gap-2 @4xl:w-130">
             <Caption />
             <Title text = "Business Process" />
             <Small text = "We Streamline your business processes, ensuring efficiency, productivity, and growth." />

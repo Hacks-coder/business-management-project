@@ -7,7 +7,7 @@
 
 </script>
 <footer class="@container mt-30 bg-darkPurple p-5 text-white flex flex-col gap-10 2xl:p-20">
-    <div class="grid gap-10 @4xl:grid-cols-3 @4xl:place-items-center">
+    <div class="grid gap-20 @4xl:grid-cols-3 @4xl:place-items-center">
         <div class="space-y-5">
             <Title text = "Ochukonify" />
             <Small text  = "The web platform aims to enable free link shortener free from aids and you get to do mini task with no pricing attached to them. Sounds great right? Let’s do this." />

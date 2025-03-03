@@ -22,10 +22,13 @@
   ]
 </script>
 
-<section class="text-xl font-bold flex justify-center mt-30">
-    <Accordion class="shadow-sm shadow-gray-700 p-5 rounded-2xl">
+<section class="text-xl font-bold flex gap-5 flex-col items-center mt-30">
+    <div>
+        <img src="/others/faqs.png" alt="">
+    </div>
+    <Accordion>
         {#each faqs as {question, answer}}
-            <AccordionItem title= {question} class="shadow-sm shadow-gray-300 p-2">
+            <AccordionItem title= {question} class="shadow-sm shadow-gray-300 p-2 w-80">
                 <Small text = {answer} className = "text-sm" />
             </AccordionItem>
         {/each}

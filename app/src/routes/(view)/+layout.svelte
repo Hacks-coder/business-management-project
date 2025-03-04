@@ -6,7 +6,7 @@
 	let { children } = $props();
 </script>
 
-<div class="bg-gradient-to-b from-[#EDF6FF] via-[#C3B7FF] to-[#8979FF]">
+<div class="bg-gradient-to-b from-[#EDF6FF] via-[#C3B7FF] to-[#8979FF] p-2 py-10">
 	<Header />
 	<Hero />
 </div>

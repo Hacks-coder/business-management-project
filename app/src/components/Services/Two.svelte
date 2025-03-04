@@ -13,8 +13,8 @@
 
 </script>
 <section class="@container mt-10 ">
-    <div class="grid place-items-center gap-10 @4xl:grid-cols-2 @5xl:px-4 @6xl:px-30 @7xl:px-40" >
-        <div class="w-80 flex flex-col @2xl:w-100 gap-2 @4xl:w-130">
+    <div class="flex flex-col items-center  gap-10 @4xl:flex-row @4xl:justify-center @4xl:gap-30 @5xl:px-4 @6xl:px-30 @7xl:px-40" >
+        <div class="w-80 order-1 flex flex-col @2xl:w-100 gap-2 @4xl:w-130 @4xl:order-0">
             <Caption />
             <Title text = "Strategic Partnerships" />
             <Small text = "We foster strategic partnerships, connecting you  with the right people, resources, and opportunities." />
@@ -25,7 +25,7 @@
                 </div>
             {/each}
         </div>
-        <div class="bg-skyBlue size-72 rounded-2xl shadow-sm shadow-gray-600 @xl:size-100 @3xl:size-130">
+        <div class="bg-skyBlue size-72 rounded-2xl @xl:size-100 @3xl:size-130">
             <img src="/services/partnership.png" alt="">
         </div>
     </div>

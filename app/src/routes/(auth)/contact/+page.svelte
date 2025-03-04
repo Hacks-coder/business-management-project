@@ -5,7 +5,7 @@
 </script>
 
 <div class="text-center space-y-3">
-    <Title text = "Registration System" />
+    <Title text = "Send us a message" />
     <Small text = "Fill in all the fields below." /> 
 </div>
 
@@ -17,7 +17,7 @@
     </div>
     <div class="flex flex-col gap-2">
         <label for="" class="font-krona font-bold text-md">Message Body</label>
-        <textarea placeholder="Enter message here..." class="w-80 h-32 shadow-md outline-1 outline-blue focus:outline-blue @4xl:w-110 @4xl:h-60"></textarea>
+        <textarea placeholder="Enter message here..." class="w-80 h-40 shadow-md outline-1 outline-blue focus:outline-blue @4xl:w-110 @4xl:h-60"></textarea>
     </div>
     <Fill text="Send Message" />
 </form>

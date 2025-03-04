@@ -20,4 +20,5 @@
         <textarea placeholder="Enter message here..." class="w-80 h-40 shadow-md outline-1 outline-blue focus:outline-blue @4xl:w-110 @4xl:h-60"></textarea>
     </div>
     <Fill text="Send Message" />
+    <a href="/home" class="text-blue">Back</a>
 </form>

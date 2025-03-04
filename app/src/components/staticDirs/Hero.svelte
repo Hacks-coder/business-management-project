@@ -14,7 +14,7 @@
         <div>
             <div class="space-y-2">
                 <Caption />
-                <p class="text-2xl font-bold @xl:text-3xl @2xl:text-4xl @4xl:text-7xl">Divide each idea into small, manageable steps.</p>
+                <p class="text-2xl text-white  font-bold @xl:text-3xl @2xl:text-4xl @4xl:text-7xl">Divide each idea into small, manageable steps.</p>
                 <Small text = "Dividing each idea into small, manageable steps means breaking a complex goal into clear, bite-sized tasks that you can tackle one at a time." />
             </div>
             <div class="flex gap-1 bg-white rounded-full px-1 py-2 justify-between mt-5 w-90 @2xl:w-120">

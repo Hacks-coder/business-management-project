@@ -13,7 +13,7 @@
 
 </script>
 <section class="@container mt-10 ">
-    <div class="flex flex-col items-center  gap-10 @4xl:flex-row @4xl:justify-center @4xl:gap-30 @5xl:px-4 @6xl:px-30 @7xl:px-40" >
+    <div class="flex flex-col items-center justify-center  gap-10 @4xl:flex-row @4xl:justify-center @4xl:gap-30 @5xl:px-4 @6xl:px-30 @7xl:px-40" >
         <div class="w-80 order-1 flex flex-col @2xl:w-100 gap-2 @4xl:w-130 @4xl:order-0">
             <Caption />
             <Title text = "Strategic Partnerships" />

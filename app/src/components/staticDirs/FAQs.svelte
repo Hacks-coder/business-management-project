@@ -21,15 +21,17 @@
   ]
 </script>
 
-<section class="text-xl font-bold flex gap-5 flex-col items-center mt-30">
-    <div>
-        <img src="/others/faqs.png" alt="">
+<section class="@container">
+    <div class="text-xl font-bold flex gap-5 flex-col items-center mt-30 @4xl:flex-row @4xl:justify-center">
+        <div>
+            <img src="/others/faqs.png" alt="" class="size-72 @xl:size-100 @3xl:size-120">
+        </div>
+        <Accordion>
+            {#each faqs as {question, answer}}
+                <AccordionItem title= {question} class="shadow-sm shadow-gray-300 p-2 w-80 @md:w-100 @xl:w-120 @4xl:w-150">
+                    <Small text = {answer} className = "text-sm" />
+                </AccordionItem>
+            {/each}
+        </Accordion>
     </div>
-    <Accordion>
-        {#each faqs as {question, answer}}
-            <AccordionItem title= {question} class="shadow-sm shadow-gray-300 p-2 w-80">
-                <Small text = {answer} className = "text-sm" />
-            </AccordionItem>
-        {/each}
-    </Accordion>
 </section>

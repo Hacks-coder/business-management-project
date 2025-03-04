@@ -3,7 +3,7 @@
     
     const navigationLinks = [
         {href: "/home", child: "Home"},
-        {href: "about", child: "Services"},
+        {href: "services", child: "Services"},
         {href: "contact", child: "Contact"}
     ]
     let isNavigationOpen = false;

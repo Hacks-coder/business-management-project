@@ -23,14 +23,14 @@
         <div class="flex justify-end">
             <div class="flex flex-col gap-0">
                 {#each navigationLinks as {href, child}}
-                    <a {href}>{child}</a>
+                    <a {href} onclick={toggleNavigation}>{child}</a>
                 {/each}
             </div>
         </div>
         {/if}
         <div class="hidden @3xl:flex @3xl:gap-15">
             {#each navigationLinks as {href, child}}
-                <a {href}>{child}</a>
+                <a {href} onclick={toggleNavigation}>{child}</a>
             {/each}
         </div>
         <div class="hidden @3xl:flex @3xl:gap-5">

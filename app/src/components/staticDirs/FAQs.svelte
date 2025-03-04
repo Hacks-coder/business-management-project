@@ -1,7 +1,6 @@
 <script lang="ts">
   import { Accordion, AccordionItem } from "svelte-accessible-accordion";
 	import Small from "../Texts/Small.svelte";
-	import Title from "../Texts/Title.svelte";
   const faqs = [
     {
         question: " is there a free trial avaliable?",

@@ -12,8 +12,8 @@
   ];
 
 </script>
-<section class="@container mt-30 ">
-    <div class="grid place-items-center gap-30 @4xl:grid-cols-2 @5xl:px-4 @6xl:px-30 @7xl:px-40" >
+<section class="@container mt-10 ">
+    <div class="grid place-items-center gap-10 @4xl:grid-cols-2 @5xl:px-4 @6xl:px-30 @7xl:px-40" >
         <div class="w-80 flex flex-col @2xl:w-100 gap-2 @4xl:w-130">
             <Caption />
             <Title text = "Strategic Partnerships" />
